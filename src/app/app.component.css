@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Basement;
+    src: url(../assets/fonts/titles/BasementGrotesque-Black_v1.202.woff);
+}
+
+:root{
+    --pry: #f7dd50;
+    --sed: #53617a;
+    --ted: #a16afe;
+}
+
+nav{
+    background-color: black;
+}
+
+a{
+    font-family: Basement;
+    font-size: 2rem;
+    color: #a16afe;
+}
+
+.active-link{
+    color: #f7dd50;
+}
+
+.active-link a{
+    color: green;
+}
+
+a:hover{
+    color: #f7dd50;
+}
+
+img{
+    display: flex;
+    width: 140px;
+    height: 140px;
+    border-radius: 2rem;
+}
+
+#navbarSupportedContent{
+    padding-left: 27%;
+}
